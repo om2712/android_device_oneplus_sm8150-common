@@ -501,6 +501,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 #VNDK
 PRODUCT_PACKAGES += \
     libhidltransport \
