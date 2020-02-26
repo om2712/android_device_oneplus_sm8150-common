@@ -27,6 +27,9 @@ persist.debug.coresight.config=stm-events
 # DPM
 persist.vendor.dpm.feature=9
 
+# fastbootd
+ro.fastbootd.available=true
+
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
