@@ -127,6 +127,9 @@
                 android:exported="false">
         </service>
 
+        <!-- Auto HBM Mode -->
+        <service android:name="com.xtended.device.DeviceSettings.AutoHighBrightnessModeService" />
+
         <!-- Search indexing -->
         <provider
             android:name=".ConfigPanelSearchIndexablesProvider"
