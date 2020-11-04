@@ -168,6 +168,7 @@ public class DeviceSettings extends PreferenceFragment
             } else {
                 this.getContext().stopService(fpsinfo);
             }
+        return true;    
         }
         return false;
     }
