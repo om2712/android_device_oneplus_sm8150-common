@@ -31,11 +31,6 @@
             android:summary="@string/hbm_autobrightness_summary"
             android:title="@string/hbm_autobrightness_title" />
 
-        <com.xtended.device.DeviceSettings.HBMAutobrightnessThresholdPreference
-            android:key="hbm_autobrightness_threshould"
-            android:title="@string/hbm_autobrightness_threshold_title"
-            android:summary="@string/hbm_autobrightness_threshold_summary" />
-
         <Preference
             android:key="panel_category"
             android:title="@string/panel_category_title"
