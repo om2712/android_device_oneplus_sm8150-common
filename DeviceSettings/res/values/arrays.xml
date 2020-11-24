@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Alert slider -->
+
     <string-array name="notification_slider_action_entries" translatable="false">
         <item>@string/notification_slider_mode_total_silence</item>
         <item>@string/notification_slider_mode_silent</item>
@@ -23,6 +23,7 @@
         <item>@string/notification_slider_mode_vibrate</item>
         <item>@string/notification_slider_mode_none</item>
     </string-array>
+
     <string-array name="notification_slider_action_entry_values" translatable="false">
         <item>0</item>
         <item>1</item>
@@ -31,7 +32,7 @@
         <item>4</item>
     </string-array>
 
-    <!-- Screen off Gestures -->
+        <!-- Screen off Gestures -->
     <string-array name="touchscreen_gesture_action_entries">
         <item>@string/touchscreen_gesture_action_do_nothing</item>
         <item>@string/touchscreen_gesture_action_flashlight</item>
@@ -45,7 +46,6 @@
         <item>@string/touchscreen_gesture_action_next_track</item>
         <item>@string/touchscreen_gesture_action_volume_down</item>
         <item>@string/touchscreen_gesture_action_volume_up</item>
-        <item>@string/touchscreen_gesture_action_ambient_display</item>
     </string-array>
     <string-array name="touchscreen_gesture_action_values">
         <item>0</item>
@@ -60,6 +60,6 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
-        <item>12</item>
     </string-array>
+
 </resources>
