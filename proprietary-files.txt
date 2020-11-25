@@ -5,7 +5,8 @@ vendor/lib/libadsp_default_listener.so
 vendor/lib64/libadsp_default_listener.so
 
 # ADSP Modules
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
@@ -182,6 +183,7 @@ vendor/lib/camera/components/com.vidhance.stats.aec_dmbr.so
 vendor/lib/camera/components/libdepthmapwrapper.so
 vendor/lib/libSTDualCamCaptureWT.so
 vendor/lib/lib_bokehlib.so
+vendor/lib/lib_oneplus_watermark.so
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_distortion_correction.so
 vendor/lib/libarcsoft_dualcam_bokeh_api.so
