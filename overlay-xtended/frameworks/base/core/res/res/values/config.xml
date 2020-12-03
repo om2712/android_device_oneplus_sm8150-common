@@ -88,4 +88,7 @@
     <!-- Whether device has dash charging support -->
     <bool name="config_hasWarpCharger">true</bool>
     
+    <!-- Defines custom OEM sensor for pocket detection. -->
+    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
+    
 </resources>
