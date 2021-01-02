@@ -30,7 +30,24 @@
     <PreferenceCategory
         android:key="graphics"
         android:title="@string/display_title">
-
+        
+         <Preference
+            android:key="panel_category"
+            android:title="@string/panel_category_title"
+            android:icon="@drawable/rr_panel_icon"
+            android:summary="@string/panel_category_summary"
+            android:persistent="false" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="org.lineageos.device.DeviceSettings"
+                    android:targetClass="org.lineageos.device.DeviceSettings.PanelSettingsActivity" />
+        </Preference>
+        
+        <SwitchPreference
+            android:key="dc"
+            android:icon="@drawable/rr_dc_dim_icon"
+            android:summary="@string/dc_mode_summary"
+            android:title="@string/dc_mode_title" />
+            
         <SwitchPreference
             android:key="hbm"
             android:summary="@string/hbm_mode_summary"
@@ -49,22 +66,6 @@
             android:icon="@drawable/rr_hbm_icon"
             android:summary="@string/hbm_autobrightness_threshold_summary" />
 
-        <SwitchPreference
-            android:key="dc"
-            android:icon="@drawable/rr_dc_dim_icon"
-            android:summary="@string/dc_mode_summary"
-            android:title="@string/dc_mode_title" />
-
-        <Preference
-            android:key="panel_category"
-            android:title="@string/panel_category_title"
-            android:icon="@drawable/rr_panel_icon"
-            android:summary="@string/panel_category_summary"
-            android:persistent="false" >
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.lineageos.device.DeviceSettings"
-                    android:targetClass="org.lineageos.device.DeviceSettings.PanelSettingsActivity" />
-        </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
