@@ -1334,12 +1334,12 @@ vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Vibrator firmware
-vendor/firmware/alarm_fluttering.bin
-vendor/firmware/aw8697_haptic.bin
-vendor/firmware/aw8697_rtp.bin
-vendor/firmware/aw8697_rtp_lighthouse.bin
-vendor/firmware/aw8697_rtp_silk.bin
-vendor/firmware/awinic_haptic_params.bin
+vendor/firmware/alarm_fluttering.bin|5f80838fb673a95d113e7a6ff6997124cce8ce44
+vendor/firmware/aw8697_haptic.bin|f3f92aae00b2b95b0259a25440a2883caa759340
+vendor/firmware/aw8697_rtp.bin|b2bf42d9333fffbb7f00da38d1bd1b6d5a85014a
+vendor/firmware/aw8697_rtp_lighthouse.bin|3c06255839cd1884e8d9826952e9bfc7842dc671
+vendor/firmware/aw8697_rtp_silk.bin|3c06255839cd1884e8d9826952e9bfc7842dc671
+vendor/firmware/awinic_haptic_params.bin|103cc9ff0b8a8a694fd2705d6b447371bafc7f99
 
 # WiFi
 vendor/bin/wifilearner
