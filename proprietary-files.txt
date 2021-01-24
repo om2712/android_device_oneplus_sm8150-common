@@ -1352,12 +1352,25 @@ vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Vibrator firmware
-vendor/firmware/alarm_fluttering.bin|5f80838fb673a95d113e7a6ff6997124cce8ce44
-vendor/firmware/aw8697_haptic.bin|f3f92aae00b2b95b0259a25440a2883caa759340
-vendor/firmware/aw8697_rtp.bin|b2bf42d9333fffbb7f00da38d1bd1b6d5a85014a
-vendor/firmware/aw8697_rtp_lighthouse.bin|3c06255839cd1884e8d9826952e9bfc7842dc671
-vendor/firmware/aw8697_rtp_silk.bin|3c06255839cd1884e8d9826952e9bfc7842dc671
-vendor/firmware/awinic_haptic_params.bin|8f6d1da95bbd34a5f638d7c9d65954fa928b9267
+vendor/firmware/aw8697_haptic_166.bin
+vendor/firmware/aw8697_haptic_168.bin
+vendor/firmware/aw8697_haptic_170.bin
+vendor/firmware/aw8697_haptic_172.bin
+vendor/firmware/aw8697_haptic_174.bin
+vendor/firmware/aw8697_haptic.bin
+vendor/firmware/aw8697_rtp.bin
+vendor/firmware/aw8697_rtp_lighthouse.bin
+vendor/firmware/aw8697_rtp_silk.bin
+vendor/firmware/awinic_haptic_gun_params.bin
+vendor/firmware/awinic_haptic_params.bin
+vendor/firmware/shuntai24k_rtp.bin
+vendor/firmware/wentai24k_rtp.bin
+
+# Vibrator - OnePlus
+system_ext/etc/vibrator_effect_map.xml
+vendor/bin/hw/vendor.oneplus.hardware.lmvibrator@1.0-service
+vendor/etc/init/vendor.oneplus.hardware.lmvibrator@1.0-service.rc
+vendor/lib64/vendor.oneplus.hardware.lmvibrator@1.0.so
 
 # WiFi
 vendor/bin/wifilearner
