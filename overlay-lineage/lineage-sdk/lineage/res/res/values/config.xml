@@ -67,25 +67,4 @@
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
-    <!-- FOD fingerprint scanner -->
-    <bool name="config_needCustomFODView">true</bool>
-
-    <!-- Does the device have a notification/battery LED? -->
-    <bool name="config_deviceHasLED">false</bool>
-
-    <!-- Type of the pickup sensor used when config_dozePulsePickup is enabled. -->
-    <string name="config_dozePickupSensorType" translatable="false">oneplus.sensor.op_motion_detect</string>
-
-    <!-- Smart Charing is available -->
-    <bool name="config_smartChargingAvailable">true</bool>
-    
-    <!-- Whether device supports an alt. ambient display -->
-    <bool name="config_alt_ambient_display">true</bool>
-    
-    <!-- Whether device has dash charging support -->
-    <bool name="config_hasWarpCharger">true</bool>
-    
-    <!-- Defines custom OEM sensor for pocket detection. -->
-    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
-    
 </resources>
